@@ -158,16 +158,18 @@ header {
 }
 
 .rodape {
+    display: flex;
     background-color: #1A5C38;
-    height: 2em;
     width: 100%;
     margin-top: 20px;
+    justify-content: center;
 
     & .texto-rodape {
-        display: flex;
+        font-family: 'Work Sans';
+        font-size: clamp(1em, 1.25em, 1.5em);
+        display: block;
         color: white;
         text-align: center;
-        transform: translateY(50%);
     }
 }
 
